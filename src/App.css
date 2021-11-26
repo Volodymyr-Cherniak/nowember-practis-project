@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.border {
+  border-style: solid;
+  height: 60px;
+  width:  60px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoDone{
+  color: darkred;
+  text-decoration: line-through;
+}
